@@ -1,0 +1,246 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+/*header*/
+#header{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    background-image: url(https://img.freepik.com/free-vector/ripped-notes-rectangle-frame_53876-112325.jpg?t=st=1698572720~exp=1698573320~hmac=b09fd219a0427d9013820186fe664059c87901dcf2b21f2a4dfcdb342008e2a4);
+    background-position: 0%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: auto;
+}
+
+#header #logo {
+    position: relative;
+    height: 90px;
+}
+
+/*navigation*/
+.navbar a {
+    font-size: 18px;
+    color: black;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+}
+
+#home,
+#about,
+#conctacts,
+#services{
+    height: 700px;
+}
+
+/*sections*/
+
+/*Home sections*/
+#home {
+    background-image: url(https://img.freepik.com/free-vector/ripped-notes-rectangle-frame-background_53876-99423.jpg?w=996&t=st=1698587723~exp=1698588323~hmac=d373bc8c7763789a21c912015a934e37d095be5d7049cfd86d10e8718b3bc863);
+    background-position: 0%;
+    background-repeat: no-repeat;
+    background-attachment: absolute;
+    background-size: 100% 100%;
+    height: 700px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 11%;
+    height: 500px;
+}
+
+#pic2 {
+    height: 87%;
+    width: 40%;
+    position: absolute;
+    right: 0px;
+    top: 100px;
+    bottom: 0px;
+    left: 700px;
+    margin: auto;
+}
+
+.home-content {
+    align-items: center;
+    max-width: 600px;
+}
+
+.home-content h1 {
+    color: black;
+    font-size: 56px;
+    font-weight: 700;
+}
+
+.home-content h3 {
+    font-size: 32px;
+    font-weight: 700;
+    color: white;
+}
+
+.home-content h5 {
+    font-size: 16px;
+    color: black;
+}
+
+.home-content p {
+    color: black;
+    font-weight: 900;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.home-content .btn-box {
+    display: flex;
+    width: 345px;
+    height: 50px;
+}
+
+.btn-box a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 100%;
+    border: 2px solid black;
+    border-radius: 8px;
+    font: 19px;
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: 3px;
+}
+/*About me sections*/
+#about {
+    background-image: url(https://img.freepik.com/free-vector/hole-punched-paper-note-green-pink-watercolor-background_53876-116092.jpg?t=st=1698572720~exp=1698573320~hmac=682148fecc3ce558ea276fde56de2b42a7340280deabd77540409e891b5be0fa);
+    background-position: 0%;
+    background-repeat: no-repeat;
+    background-attachment: absolute;
+    background-size: 100% 100%;
+    padding: 17%;
+    height: 700px;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+/*Contacts Section*/
+#contacts {
+    background-image: url(https://png.pngtree.com/thumb_back/fh260/background/20210324/pngtree-pink-playful-abstract-portfolio-memphis-image_593407.jpg);
+    background-position: 0%;
+    background-repeat: no-repeat;
+    background-attachment: absolute;
+    background-size: 100% 100%;
+    padding: 5%;
+    height: 700px;
+}
+
+#contacts p{
+    font-size: 30px;
+    color: black;
+    
+}
+#contacts a{
+    background: transparent;
+    display: flex;
+    align-items: center;
+    font-size: 100px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-weight: 500;
+   
+}
+#contacts img {
+    height: 80px;
+}
+
+#contacts h1 {
+    font-size: 30px;
+    color: black;
+ }
+
+#contacts #pic1{
+    height: 75%;
+    width: 40%;
+    position: absolute;
+    right: 0;
+    top: 5;
+    bottom: 10;
+    left: 600px;
+    margin: auto;
+    border-radius: 50%;
+}
+
+/*Servicers Section*/
+#services {
+    background-image: url(https://png.pngtree.com/thumb_back/fh260/background/20210324/pngtree-portfolio-memphis-playful-abstract-pink-image_593412.jpg);
+    background-position: 0%;
+    background-repeat: no-repeat;
+    background-attachment: absolute;
+    background-size: 100% 100%;
+    padding: 5%;
+    height: 700px;
+    padding: 17%;
+    text-align: center;
+}
+
+#pic3 {
+    height: 25%;
+    width: 13%;
+    position: absolute;
+    right: 100px;
+    top: 2550px;
+    bottom: 0;
+    left: 50px;
+}
+
+.section-content h5{
+    color: rgba(107, 68, 13, 0.863);
+}
+
+.section-content h1{
+    color: rgba(69, 52, 2, 0.36);
+}
+
+.section-content h3 p{
+    color: rgba(107, 68, 13, 0.863);
+}
+
+.section-content h3{
+    color: rgba(69, 52, 2, 0.67);
+}
+
+#services h3 {
+    max-width: 300px;
+    margin: 50px;
+    display: inline-block;
+}
+
+/* the back to home! code*/
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 850px;
+    width: 100%;
+    padding: 20px 10%;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/**/
